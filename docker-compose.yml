@@ -50,7 +50,6 @@ services:
       DBUSER: root
       DBPASSWORD: root
       DB: my_database_name
-
     depends_on:
       - mysql
     networks:
